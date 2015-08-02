@@ -10,11 +10,18 @@ package com.larry.creational.factorymethod;
  */
 public class App {
     public static void main(String[] args){
-        Blacksmith blacksmith = new ElfBlacksmith();
-        Weapon axe = blacksmith.manufactureWeapon(WeaponType.AXE);
-        System.out.println(axe);
+        Blacksmith elfBlacksmith = new ElfBlacksmith();
+        Weapon elfAxe = elfBlacksmith.manufactureWeapon(WeaponType.AXE);
+        System.out.println(elfAxe);
 
-        Weapon spear = blacksmith.manufactureWeapon(WeaponType.SPEAR);
-        System.out.println(spear);
+        Weapon elfSpear = elfBlacksmith.manufactureWeapon(WeaponType.SPEAR);
+        System.out.println(elfSpear);
+
+        Blacksmith orcBlacsmith = new OrcBlacksmith();
+        Weapon orcAxe = orcBlacsmith.manufactureWeapon(WeaponType.AXE);
+        Weapon orcSpear = orcBlacsmith.manufactureWeapon(WeaponType.SPEAR);
+        System.out.println(orcAxe);
+        System.out.println(orcSpear);
+
     }
 }
