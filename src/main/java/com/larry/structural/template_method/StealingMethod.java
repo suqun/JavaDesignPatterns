@@ -12,7 +12,7 @@ public abstract class StealingMethod {
 
     protected abstract void stealTheItem(String target);
 
-    public void steal(){
+    public void steal(){// final 可以阻止子类改变此方法git
         String target = pickTarget();
         System.out.println("The target has been chosen as " + target + ".");
         confuseTarget(target);
