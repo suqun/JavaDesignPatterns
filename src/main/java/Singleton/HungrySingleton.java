@@ -6,6 +6,8 @@ package Singleton;
  */
 public class HungrySingleton {
 
+
+
     //1.将构造方法私有化，不允许外部直接创建对象
     private HungrySingleton(){}
 
