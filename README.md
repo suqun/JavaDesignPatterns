@@ -3,7 +3,7 @@
 ##Creational
 * singleton
 
-单例最近实践：单元素枚举类 
+   单例最佳实践：单元素枚举类 
 
 * abstract factory
 
