@@ -1,6 +1,9 @@
 # JavaDesignPatterns 
 
 ##Creational
+* singleton
+
+单例最近实践：单元素枚举类 
 
 * abstract factory
 
