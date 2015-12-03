@@ -1,4 +1,4 @@
-package com.headfirst.state;
+package com.headfirst.state.gumballstate;
 
 /**
  * Created on 15/12/3.
