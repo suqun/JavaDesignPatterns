@@ -2,7 +2,7 @@ package com.headfirst.factory.simplefactory;
 
 /**
  * Created by larry on 11/3/15.
- * pizza的简单工厂，只做一件事：绑它的客户创建pizza
+ * pizza的简单工厂，只做一件事：帮它的客户创建pizza
  */
 public class SimplePizzaFactory {
     public Pizza createPizza(String type){
