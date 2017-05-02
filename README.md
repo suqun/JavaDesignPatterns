@@ -1,6 +1,6 @@
 # design patterns
 
-##Adapter
+## Adapter
 
 ![Adapter](https://github.com/suqun/JavaDesignPatterns/blob/master/src/main/java/com/headfirst/adapter/class_diagram.png "适配器示例类图")
 
@@ -11,7 +11,7 @@
     * 适配器有两种形式；对象适配器和类适配器。类适配器需要用到多重继承
 
 
-##Command
+## Command
 
 ![Command](https://github.com/suqun/JavaDesignPatterns/blob/master/src/main/java/com/headfirst/command/simpleremote/command.png "命令模式类图")
 
@@ -25,7 +25,7 @@
     * 宏命令是命令的一种简单的延伸，允许调用多个命令。宏方法也可以支持撤销
     * 命令模式也可以用来实现队列请求，日志和事务系统。
 
-##Composite
+## Composite
 
 ![Composite](https://github.com/suqun/JavaDesignPatterns/blob/master/src/main/java/com/headfirst/composite/composite.png "组合模式示例类图")
 
@@ -36,7 +36,7 @@
     * 组合结构的任意对象称为组件，组件可以是组合，也可以是叶子节点
     * 在实现组合模式时，有许多设计上的折衷。你要根据需要平衡透明性和安全性
 
-##decorator
+## decorator
 
 ![Decorator](https://github.com/suqun/JavaDesignPatterns/blob/master/src/main/java/com/headfirst/decorator/decorator.png "装饰者模式示例类图")
 
@@ -53,7 +53,7 @@
     * 装饰者一般对组件的客户是透明的，除非客户程序依赖于组件的具体类型
     * 装饰者会导致设计中出现许多小对象，如果过度使用，会让程序变的很复杂
 
-##facade
+## facade
 
 ![Facade](https://github.com/suqun/JavaDesignPatterns/blob/master/src/main/java/com/headfirst/facade/facade.png "外观模式示例类图")
 
@@ -64,7 +64,7 @@
     * 实现一个外观，需要将子系统组合进外观中，然后将工作委托给子系统执行
     * 你可以为一个子系统实现一个以上的外观
 
-##iterator
+## iterator
 
 ![Iterator](https://github.com/suqun/JavaDesignPatterns/blob/master/src/main/java/com/headfirst/iterator/iterator.png "迭代器模式示例类图")
 
@@ -76,7 +76,7 @@
     * 迭代器提供了一个通用的接口，让我们遍历聚合的项，当我们编码使用聚合的项时，就可以使用多态机制
     * 努力让一个类只分配一个责任
 
-##observer
+## observer
 
 ![Observer](https://github.com/suqun/JavaDesignPatterns/blob/master/src/main/java/com/headfirst/observer/observer.png "观察者模式示例类图")
 
@@ -88,7 +88,7 @@
     * 使用此模式时，你可从被观察者推或拉数据（然而，推的方式被认为更“正确”）
     * 有多个观察者时，不可以依赖特定的通知顺序
 
-##singleton
+## singleton
 - **单件模式——确保一个类只有一个实例，并提供全局访问点**
 - **要点**
     * 单件模式确保程序中一个类最多只有一个实例
@@ -99,7 +99,7 @@
     * 小心，如果你使用多个类加载器，可能导致单件失效而产生多个实例
     * 如果使用JVM1.2或之前的版本，你必须建立单件注册表，以免垃圾收集器将单件收回
 
-##state
+## state
 
 ![State](https://github.com/suqun/JavaDesignPatterns/blob/master/src/main/java/com/headfirst/state/state.png "状态模式类图")
 
@@ -116,13 +116,13 @@
     * 使用状态模式通常会导致设计中的类的数目大量增加
     * 状态类可以被多个Context实例共享
 
-##strategy
+## strategy
 
 ![Strategy](https://github.com/suqun/JavaDesignPatterns/blob/master/src/main/java/com/headfirst/strategy/duck.png "策略模式示例类图")
 
 - **策略模式——定义算法族，分别封装起来，让他们之间可以相互替换，此模式让算法的变化独立于使用算法的客户。**
 
-##template-method
+## template-method
 
 ![TemplateMethod](https://github.com/suqun/JavaDesignPatterns/blob/master/src/main/java/com/headfirst/templatemethod/template.png "模板方法模式")
 
